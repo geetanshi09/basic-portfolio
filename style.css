@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200;1,200&display=swap');
+:root{
+    --primary-color : rgb(29, 28, 28);
+    --first-font : "Nunito", sans-serif;
+    --second-font : "Archivo Black", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--primary-color);
+    font-family: "Nunito", sans-serif;
+}
+
+.first-page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    color: white;
+    height: 100vh;
+    width: 20vw;
+    border: 2px solid black;
+    font-size: 20px;
+
+    .top-box{
+        padding: 10px;
+        margin: 20px 60px;
+    }
+
+    li{
+        list-style-type: none;
+        padding: 25px;
+        border: 1px solid beige;
+    }
+}
+.hyperlinks{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.text-section{
+    color: beige;
+    margin: 200px 15px;
+    .bold-text{
+        font-size: 40px;
+        font-family: "Archivo Black", sans-serif;
+    }
+
+}
+.main-image{
+    /* align-items: center; */
+    margin: auto 20px;
+
+}
+#my-image{
+    object-fit: none;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px ;
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px 2px aqua;
+}
+.contact{
+    border: 1px solid aqua;
+    background-color: var(--primary-color);
+    color: aqua;
+    font-family: var(--second-font);
+    font-size: larger;
+    padding: 10px;
+    margin: 30px 10px;
+}
+.icon-box{
+    margin: 20px;
+    display: flex;
+    .social-icons{
+        height:30px;
+        width: 30px;
+    }
+    justify-content: space-evenly;
+}
